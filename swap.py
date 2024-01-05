@@ -16,7 +16,9 @@ def parse(string: str) -> str:
 
 
 def main():
-    print(parse(input("Enter a string: ")))
+    string = input("Enter a string: ")
+    print(parse(string))
+    print(string.swapcase())
 
 
 if __name__ == "__main__":
