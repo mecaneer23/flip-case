@@ -2,7 +2,7 @@
 # pylint: disable=missing-docstring
 
 
-def parse(string: str) -> str:
+def swapcase(string: str) -> str:
     output_str = ""
     for char in string:
         representation = ord(char)
@@ -17,7 +17,7 @@ def parse(string: str) -> str:
 
 def main():
     string = input("Enter a string: ")
-    print(parse(string))
+    print(swapcase(string))
     print(string.swapcase())
 
 
